@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Popppins:wgh@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    transition: .1s linear;
+    font-family: "Poppins", sans-serif;
+}
+.pembungkus{
+    margin: 10px auto;
+    padding: 0 10%;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+.pembungkus h1{
+    color:black;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-shadow: 0 15px 10px rgba(0, 0, 0, 0.2);
+}
+.wadah{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minimax(270px, 1fr));
+}
+.kotak{
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+    background: rgb(26, 24, 24);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.kotak img{
+    height: 70px;
+}
+.kotak a{
+    text-decoration: none;
+    color: rgb(42, 41, 41)
+}
+.kotak h3{
+    color: whitesmoke;
+    padding: 10px 100;
+    font-size: 20px;
+}
+.kotak p{
+    color: whitesmoke;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.nav{
+    background-color: rgb(36, 33, 33);
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.nav a{
+    color: whitesmoke;
+}
+.nav a:hover{
+    color:rgb(137, 137, 137);
+}
+.nav a:focus {
+    color: #1e71c9;
+}
+.data-list{
+    display: inline-block;
+    margin-left: 37%;
+}
+.data-list li{
+    display: inline-block;
+    margin-left: 23px;
+    font-family: Arial;
+}
+.logo {
+    color: whitesmoke;
+    font-family: sans-serif;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.tombol {
+    background: whitesmoke;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin-top: 17px;
+    padding: 2px 15px;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+.tombol:hover{
+    letter-spacing: 1px;
+}
+.tombol:hover{
+    transform: scale(1.02);
+    box-shadow: rgb(23, 19, 19);
+}
+.kalkulatorbg {
+    margin: 10px auto;
+    padding: 0 10%;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+.kalkulatorbg h1 {
+    color:black;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    text-shadow: 0 13px 13px rgba(0, 0, 0, 0.2);
+}
+.kalkulatorinput {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minimax(270px, 1fr));
+}
+.isi {
+    padding: 120px;
+    text-align: center;
+    border-radius: 15px;
+    background: rgb(60, 60, 60);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    
+}
+.isi input {
+    margin: 8px;
+    padding: 8px;
+    width: 100%;
+    font-size: 14px;
+}
+.isi input:read-only {
+    border: 1px solid #000;
+    background-color: #8d8d8d;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.isi button {
+    margin:  2px;
+    padding: 4px 0;
+    width: 35px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.isi button:hover {
+    background-color: #c8c8c8;
+}
+.isi button:hover {
+    font-size: 13px;
+}
+.isi button:hover {
+    box-shadow: 0px 2px #4688ce;
+}
+.isi button:focus {
+    outline: 2px solid #4688ce;
+}
+
+@media (max-width:770px) {
+    .wrapper{
+        padding: 20px;
+    }
+}
